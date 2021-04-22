@@ -29,7 +29,9 @@ html, body {
 }
 nav{
     width: 100%;
-    height: 40px;
+    height: 51px;
+    position:fixed;
+    top: 0;
 }
 nav ul {
     list-style-type: none;
@@ -145,10 +147,64 @@ nav li a:hover {
     filter: blur(0px);
     background-color: rgba(122, 122, 122, 0.99);
 }
+
+.earthdaybackground{
+    background-image: url("/images/ciencias/articleEarthDaybackground.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    z-index: -100;
+    filter: blur(1px);
+    position: fixed;
+    top: 50px;
+}
+.earthdaybackground::before{
+    content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.1);
+}
+.menu_earth_day{
+    background-color: black;
+    box-shadow: 2px 2px 10px black;
+}
 .colum{
     width: 80%;
-    height: 1000px;
+    height:max-content;
     margin:auto;
     margin-top: 100px;
     background-color: rgba(0, 0, 0, 0.8);
+}
+.info_container{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    margin: 50px 50px;
+}
+.info_container p{
+    display:inline-block;
+    color: white;
+    width: 200px;
+    background:rgba(185, 185, 185, 0.239);
+    text-align:center
+}
+.title_article{
+    margin: 50px;
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+}
+.art_image1{
+    width: 500px;
+    margin: 50px;
+    float: left;
+}
+article p{
+    margin: 50px;
+    color:whitesmoke;
+    font-size: 25px;
+    letter-spacing: 2px;
 }
