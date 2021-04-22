@@ -143,5 +143,5 @@ nav li a:hover {
 
 .container .no_activity_tarjet:hover{
     filter: blur(0px);
-    background-color: rgba(185, 185, 185, 0.8);
+    background-color: rgba(122, 122, 122, 0.99);
 }
