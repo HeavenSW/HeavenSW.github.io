@@ -145,3 +145,10 @@ nav li a:hover {
     filter: blur(0px);
     background-color: rgba(122, 122, 122, 0.99);
 }
+.colum{
+    width: 80%;
+    height: 1000px;
+    margin:auto;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
