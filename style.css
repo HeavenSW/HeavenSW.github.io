@@ -29,7 +29,7 @@ html, body {
 }
 nav{
     width: 100%;
-    height: 51px;
+    height: 40px;
     position:fixed;
     top: 0;
 }
@@ -43,7 +43,7 @@ nav ul {
 }
 .logo{
     height: 100%;
-    font-size:40px;
+    font-size:30px;
     float:left;
 }
 nav li {
@@ -54,7 +54,7 @@ nav li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 8.5px 40px;
+    padding: 4.5px 40px;
     position:relative;
     right: 0px;
     text-decoration: none;
@@ -66,12 +66,12 @@ nav li a:hover {
 .active {
     background-color: #00000067;
     font-weight: bold;
-    padding: 2px 10px;
+    padding: 5px 10px;
     color:rgb(255, 255, 255);
 }
 .title{
     width: 50%;
-    height: 180px;
+    height: 160px;
     background-color: rgba(0, 0, 0, 0.6);
     position: relative;
     margin: auto;
@@ -97,8 +97,8 @@ nav li a:hover {
     top: 18%;
 }
 .container .tarjet{
-    width: 275px;
-    height: 350px;
+    width: 230px;
+    height: 290px;
     border: 8px;
     overflow: hidden;
     margin:20px;
@@ -111,22 +111,22 @@ nav li a:hover {
 }
 .container .tarjet:hover{
     transform: translateY(-10px);
-    width:280px;
-    height: 355px;
+    width:240px;
+    height: 325px;
     background-color: rgba(253, 253, 253, 0.9);
     box-shadow: -10px 10px 5px rgba(20, 20, 20, 0.774);
 
 }
 .container .tarjet img{
     width: 100%;
-    height: 180px;
+    height: 160px;
 }
 .container .tarjet h4{
     font-weight: 600;
     font-family: 'Libre Caslon Text', serif;
 }
 .container .tarjet p{
-    padding: 0.5rem;
+    padding: 0.2rem;
     font-size: 23px;
     font-weight: 300;
     font-family: 'Markazi Text', serif;
@@ -156,7 +156,7 @@ nav li a:hover {
     z-index: -100;
     filter: blur(1px);
     position: fixed;
-    top: 50px;
+    top: 43px;
 }
 .earthdaybackground::before{
     content:'';
@@ -169,11 +169,12 @@ nav li a:hover {
 }
 .menu_earth_day{
     background-color: black;
+    height: 44px;
     box-shadow: 2px 2px 10px black;
 }
 .colum{
-    width: 80%;
-    height:max-content;
+    width: 75%;
+    height:auto;
     margin:auto;
     margin-top: 100px;
     background-color: rgba(0, 0, 0, 0.8);
@@ -189,12 +190,13 @@ nav li a:hover {
     color: white;
     width: 200px;
     background:rgba(185, 185, 185, 0.239);
-    text-align:center
+    text-align:center;
+
 }
 .title_article{
     margin: 50px;
     color: whitesmoke;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Merriweather', serif;
 }
 .art_image1{
@@ -202,9 +204,12 @@ nav li a:hover {
     margin: 50px;
     float: left;
 }
+.p_container{
+    padding-bottom: 30px;
+}
 article p{
     margin: 50px;
     color:whitesmoke;
-    font-size: 25px;
+    font-size: 20px;
     letter-spacing: 2px;
 }
