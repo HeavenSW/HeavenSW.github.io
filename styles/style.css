@@ -9,13 +9,13 @@ html, body {
     width: 100%;
     height: 100%;
 }
-.background{
+{
     background-image: url("/images/wallpaper.jpg");
     position: fixed;
     width: 100%;
     height: 100%;
     background-size: contain;
-    z-index: -100;
+    z-index: -.background100;
     filter: blur(1px);
 }
 .background::before{
@@ -99,8 +99,8 @@ nav li a:hover {
 .container .tarjet{
     width: 230px;
     min-width: 230px;
-    height: 290px;
-    min-height: 290px;
+    height: 310px;
+    min-height: 310px;
     border: 8px;
     overflow: hidden;
     margin:20px;
@@ -216,6 +216,25 @@ article p{
     color:whitesmoke;
     font-size: 20px;
     letter-spacing: 2px;
+}
+.socialesbg{
+    background-image: url("/pagssociales/imgs/socialesbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    filter: blur(1px);
+}
+.socialesbg::before{
+    content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.2);
 }
 .colombiabg{
     background-image: url("/pagssociales/imgs/colombiabg.jpg");
